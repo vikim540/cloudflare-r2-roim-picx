@@ -40,6 +40,14 @@
   ![Upload](https://oss.tuqu.me/roim/blog/cf/pages3.png)
   ![Upload](https://oss.tuqu.me/roim/blog/cf/pages4.png)
 * 5.设置环境变量
+*
+  BASE_URL  https//picx.vikim.eu.org 
+  NODE_VERSION  16.14.2
+  NPM_VERSION  8.14.0
+  其次 KV创建  XK
+  PICX_AUTH_TOKEN 4xVSYkCKw2ExbPNEaMPjCnaaOowU9sTf
+  再次 R2创建 picx
+  PICX PICX
 > 因为cloudflare默认的node版本较低需要手动指定版本，否在会导致构建失败.
     ![Upload](https://oss.tuqu.me/roim/blog/cf/pages5.png)
 * 6.设置项目的函数信息绑定R2和KV服务
